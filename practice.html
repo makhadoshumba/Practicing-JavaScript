@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+  <title>JavaScript</title>
+</head>
+<style>
+h1{
+    text-align: center;
+}
+
+.lightbulb{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    height: auto;
+}
+
+.switches{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+button{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  height: 40px;
+  width: 90px;
+  font-weight: 30px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+</style>
+
+
+<body>
+
+<h1>Practicing JavaScript</h1>
+
+<div class="lightbulb">
+   <img id="img" alt="lightbulb" style="width: 250px; height: 250px;"  src="lightoff.jpg">
+</div>
+
+
+<div class="switches">
+   <button alt="Switch on the lightbulb" type="button" onclick="document.getElementById('img').src = 'lighton.jpg'">Switch On</button>
+   <button alt="Switch off the lightbulb" type="button" onclick="document.getElementById('img').src = 'lightoff.jpg'">Switch Off</button>
+</div>
+
+</body>
+
+</html>
+
