@@ -3,6 +3,7 @@
   <title>JavaScript</title>
 </head>
 <style>
+
 h1{
     text-align: center;
 }
@@ -30,6 +31,12 @@ button{
   border-radius: 10px;
   border-color: black;
 }
+.box{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  height: auto;
+}
 
 </style>
 
@@ -38,15 +45,18 @@ button{
 
 <h1>Practicing JavaScript</h1>
 
-<div class="lightbulb">
-   <img id="img" alt="lightbulb" style="width: 250px; height: 250px;"  src="lightoff.jpg">
+<div class="box">
+  <div class="lightbulb">
+     <img id="img" alt="lightbulb" style="width: 400px; height: 400px;"  src="lightoff.jpg">
+  </div>
+  <div class="switches">
+     <button alt="Switch on the lightbulb" type="button" onclick="document.getElementById('img').src = 'lighton.jpg'">Switch On</button>
+     <button alt="Switch off the lightbulb" type="button" onclick="document.getElementById('img').src = 'lightoff.jpg'">Switch Off</button>
+  </div>
 </div>
 
 
-<div class="switches">
-   <button alt="Switch on the lightbulb" type="button" onclick="document.getElementById('img').src = 'lighton.jpg'">Switch On</button>
-   <button alt="Switch off the lightbulb" type="button" onclick="document.getElementById('img').src = 'lightoff.jpg'">Switch Off</button>
-</div>
+
 
 </body>
 
