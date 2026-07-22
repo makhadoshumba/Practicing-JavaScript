@@ -1,9 +1,9 @@
 function lighton() {
   document.getElementById("img").src = "lighton.jpg";
-  alert("The light is on");
+  alert("Click Ok To Switch On The Light");
 }
 
 function lightoff() {
   document.getElementById("img").src = "lightoff.jpg";
-  alert("The light is off");
+  alert("Click Ok To Switch On The Light");
 }
