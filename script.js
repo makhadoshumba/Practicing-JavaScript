@@ -5,5 +5,5 @@ function lighton() {
 
 function lightoff() {
   document.getElementById("img").src = "lightoff.jpg";
-  alert("Click Ok To Switch On The Light");
+  alert("Click Ok To Switch Off The Light");
 }
